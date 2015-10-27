@@ -1,0 +1,27 @@
+{
+  "name": "gordon",
+  "version": "1.0.0",
+  "description": "shell",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard"
+  },
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "license": "ISC",
+  "dependencies": {
+    "node-x11-desktop-entry": "^0.1.1"
+  },
+  "devDependencies": {},
+  "repository": "github:sonnyp/gordon",
+  "keywords": [
+    "shell",
+    "application",
+    "launcher",
+    "remote",
+    "control"
+  ],
+  "bugs": "https://github.com/sonnyp/gordon/issues",
+  "homepage": "https://github.com/sonnyp/gordon"
+}

@@ -1,0 +1,46 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(50, 50, 50, 0);*/
+  background-color: gray;
+}
+
+#panel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+
+#items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+}
+
+body {
+  -webkit-user-select: none;
+  /*-webkit-app-region: no-drag;*/
+  margin: 0;
+  /*background-color: red;*/
+  cursor: default;
+  overflow: hidden;
+}
+
+#panel > * {
+  flex: 0 1 auto;
+  align-self: auto;
+  order: 0;
+}
+
+img.widget {
+  width: 60px;
+  height: 60px;
+}
