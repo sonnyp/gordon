@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="window.css">
-    <script src="window.js"></script>
   </head>
   <body>
     <div id="panel">
@@ -11,4 +10,10 @@
       <div id="items"></div>
     </div>
   </body>
+  <script>
+    require('babel-polyfill')
+    require('babel-core/register')
+    require('./window.js')
+  </script>
+  <!-- <script src="window.js"></script> -->
 </html>
